@@ -20,12 +20,13 @@ class _HomePageState extends State<HomePage> {
         userName: "Delbert Kimbi",
         userEmail: "delber@gmail.com",
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Column(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Expanded(
+            flex: 6,
+            child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -36,7 +37,7 @@ class _HomePageState extends State<HomePage> {
                         fit: BoxFit.cover,
                       ),
                       borderRadius:
-                          BorderRadius.vertical(bottom: Radius.circular(20))),
+                          BorderRadius.vertical(bottom: Radius.circular(0))),
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
@@ -54,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                               Container(
                                 margin: const EdgeInsets.fromLTRB(2, 15, 2, 20),
-                                padding: const EdgeInsets.all(5),
+                                padding: const EdgeInsets.all(0),
                                 height: 150,
                                 width: 300,
                                 decoration: BoxDecoration(
@@ -84,10 +85,9 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
-            const SizedBox(
-              height: 30,
-            ),
-            const Text(
+          ),
+          const Expanded(
+            child: Text(
               "DashBoard",
               style: TextStyle(
                 color: Colors.blue,
@@ -95,7 +95,10 @@ class _HomePageState extends State<HomePage> {
                 fontSize: 25,
               ),
             ),
-            GridView.count(
+          ),
+          Expanded(
+            flex: 8,
+            child: GridView.count(
               crossAxisCount: 2,
               children: const [
                 Box(
@@ -106,9 +109,9 @@ class _HomePageState extends State<HomePage> {
                 Box(maintext: "Attempted problems", subtext: "5", page: null),
                 Box(maintext: "Explore more", subtext: "5", page: null),
               ],
-            )
-          ],
-        ),
+            ),
+          )
+        ],
       ),
     );
   }

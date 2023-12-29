@@ -1,3 +1,4 @@
+import 'package:c_foreverybody/const/appcolors.dart';
 import 'package:flutter/material.dart';
 
 class Box extends StatefulWidget {
@@ -14,36 +15,58 @@ class Box extends StatefulWidget {
 }
 
 class _BoxState extends State<Box> {
-  double height = 50;
-  double width = 50;
+  double height = 130;
+  double width = 140;
   Color color = Colors.blue;
   void changeItem() {
     setState(() {
-      height = 55;
-      width = 55;
+      height = 150;
+      width = 150;
       color = Colors.blue[200]!;
     });
   }
+
+  TextStyle textStyle = TextStyle(
+    color: AppColors().maincolor,
+    fontSize: 18,
+    fontWeight: FontWeight.w600,
+  );
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         changeItem();
-        Navigator.of(context).push(
-            MaterialPageRoute(builder: (BuildContext context) => widget.page!));
+        //Navigator.of(context).push(
+        // MaterialPageRoute(builder: (BuildContext context) => widget.page!));
       },
-      child: Container(
-        height: height,
-        width: width,
-        decoration: BoxDecoration(
-          color: color,
-        ),
-        child: Column(
-          children: [
-            Text(widget.maintext),
-            Text(widget.subtext),
-          ],
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(2.0),
+          child: Container(
+            alignment: const Alignment(0.5, 0.5),
+            padding: const EdgeInsets.all(12),
+            margin: const EdgeInsets.all(2),
+            height: height,
+            width: width,
+            decoration: BoxDecoration(
+                color: color,
+                borderRadius: const BorderRadius.all(Radius.circular(10))),
+            child: Center(
+              child: Column(
+                children: [
+                  Text(
+                    widget.maintext,
+                    style: textStyle,
+                  ),
+                  Text(
+                    widget.subtext,
+                    style: textStyle,
+                  ),
+                ],
+              ),
+            ),
+          ),
         ),
       ),
     );
