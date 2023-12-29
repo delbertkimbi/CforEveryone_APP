@@ -25,7 +25,13 @@ class CustomDrawer extends StatelessWidget {
             accountName: Text(userName),
             accountEmail: Text(userEmail),
             currentAccountPicture: CircleAvatar(
-              child: Text(userName[0]),
+              radius: 10,
+              child: ClipOval(
+                child: Image.asset(
+                  "assets/delbert.jpg",
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
           ),
           Expanded(

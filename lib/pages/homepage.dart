@@ -95,7 +95,18 @@ class _HomePageState extends State<HomePage> {
                 fontSize: 25,
               ),
             ),
-           const BoxPage(),
+            GridView.count(
+              crossAxisCount: 2,
+              children: const [
+                Box(
+                    maintext: "Number of Bugs Posted",
+                    subtext: "5",
+                    page: null),
+                Box(maintext: "Number Solved", subtext: "5", page: null),
+                Box(maintext: "Attempted problems", subtext: "5", page: null),
+                Box(maintext: "Explore more", subtext: "5", page: null),
+              ],
+            )
           ],
         ),
       ),
