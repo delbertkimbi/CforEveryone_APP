@@ -17,7 +17,7 @@ class _BugsPageState extends State<BugsPage> {
       appBar: const CustomAppBar(),
       drawer: const CustomDrawer(
         userName: "Delbert Kimbi",
-        userEmail: "delber@gmail.com",
+        userEmail: "delbert@gmail.com",
       ),
       body: Center(
         child: Container(
