@@ -1,6 +1,5 @@
 import 'package:c_foreverybody/components/major/custom/appbar.dart';
 import 'package:c_foreverybody/components/major/custom/drawer.dart';
-import 'package:c_foreverybody/components/minor/listtile.dart';
 import 'package:c_foreverybody/const/appcolors.dart';
 import 'package:flutter/material.dart';
 
@@ -19,16 +18,7 @@ class _HomePageState extends State<HomePage> {
       drawer: const CustomDrawer(
         userName: "Delbert Kimbi",
         userEmail: "delber@gmail.com",
-        tiles: [
-          CustomListTile(title: "Home", icon: Icon(Icons.home)),
-          CustomListTile(title: "Home", icon: Icon(Icons.home)),
-          CustomListTile(title: "Home", icon: Icon(Icons.home)),
-          Divider(
-            height: 20,
-          ),
-          CustomListTile(title: "Home", icon: Icon(Icons.home)),
-          CustomListTile(title: "Home", icon: Icon(Icons.home))
-        ],
+       
       ),
       body: Center(
         child: Container(

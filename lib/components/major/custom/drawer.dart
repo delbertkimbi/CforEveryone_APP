@@ -1,16 +1,17 @@
+import 'package:c_foreverybody/components/minor/listtile.dart';
 import 'package:c_foreverybody/const/appcolors.dart';
 import 'package:flutter/material.dart';
 
 class CustomDrawer extends StatelessWidget {
   final String userName;
   final String userEmail;
-  final List<Widget> tiles;
+
 
   const CustomDrawer({
     super.key,
     required this.userName,
     required this.userEmail,
-    required this.tiles,
+  
   });
 
   @override
@@ -29,13 +30,18 @@ class CustomDrawer extends StatelessWidget {
             ),
           ),
           Expanded(
-            child: ListView.builder(
-              itemCount: tiles.length,
-              itemBuilder: (BuildContext context, int index) {
-                return tiles[index];
-              },
-            ),
-          ),
+              child: ListView(
+            children: const [
+              CustomListTile(title: "Home", icon: Icon(Icons.home)),
+              CustomListTile(title: "Home", icon: Icon(Icons.home)),
+              CustomListTile(title: "Home", icon: Icon(Icons.home)),
+              Divider(
+                height: 20,
+              ),
+              CustomListTile(title: "Home", icon: Icon(Icons.home)),
+              CustomListTile(title: "Home", icon: Icon(Icons.home))
+            ],
+          )),
         ],
       ),
     );
