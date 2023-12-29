@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class GrodViewPage extends StatelessWidget {
-  const GrodViewPage({super.key});
+class BoxPage extends StatelessWidget {
+  const BoxPage({super.key});
 
   @override
   Widget build(BuildContext context) {
