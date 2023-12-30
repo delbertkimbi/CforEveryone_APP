@@ -1,5 +1,5 @@
+import 'package:c_foreverybody/components/major/transition/trans.dart';
 import 'package:c_foreverybody/const/apptext.dart';
-import 'package:c_foreverybody/startup.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: MyHomePage(title: AppText().title),
+      home:const IntroPage(),
     );
   }
 }

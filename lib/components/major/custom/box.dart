@@ -44,7 +44,7 @@ class _BoxState extends State<Box> {
         child: Padding(
           padding: const EdgeInsets.all(2.0),
           child: Container(
-            alignment: const Alignment(0.5, 0.5),
+            alignment: const Alignment(0, 0),
             padding: const EdgeInsets.all(12),
             margin: const EdgeInsets.all(2),
             height: height,
