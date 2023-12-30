@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   iconColor: Colors.white,
                 ),
                 GButton(
-                  icon: LineIcons.searchDollar,
+                  icon: LineIcons.search,
                   text: 'SoluX',
                   iconColor: Colors.white,
                 ),

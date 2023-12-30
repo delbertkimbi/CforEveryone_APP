@@ -21,7 +21,7 @@ class IntroPage2 extends StatelessWidget {
           Text(
             AppText().title,
             style: TextStyle(
-              color: AppColors().components,
+              color: AppColors().headertext,
               fontSize: 30,
               fontWeight: FontWeight.bold,
             ),

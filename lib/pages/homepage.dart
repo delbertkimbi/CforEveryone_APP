@@ -1,6 +1,7 @@
 import 'package:c_foreverybody/components/major/custom/appbar.dart';
 import 'package:c_foreverybody/components/major/custom/box.dart';
 import 'package:c_foreverybody/components/major/custom/drawer.dart';
+import 'package:c_foreverybody/const/appcolors.dart';
 import 'package:c_foreverybody/const/apptext.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100],
       appBar: const CustomAppBar(),
       drawer: const CustomDrawer(
         userName: "Delbert Kimbi",
@@ -45,10 +47,10 @@ class _HomePageState extends State<HomePage> {
                         Center(
                           child: Column(
                             children: [
-                              const Text(
+                              Text(
                                 "CodeBROS's Tech",
                                 style: TextStyle(
-                                  color: Colors.blue,
+                                  color: AppColors().headertext,
                                   fontWeight: FontWeight.bold,
                                   fontSize: 25,
                                 ),
@@ -61,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20),
                                   border: Border.all(
-                                    color: Colors.blue,
+                                    color: AppColors().headertext,
                                     width: 5,
                                   ),
                                 ),
@@ -86,11 +88,11 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
-          const Expanded(
+          Expanded(
             child: Text(
               "DashBoard",
               style: TextStyle(
-                color: Colors.blue,
+                color: AppColors().headertext,
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
               ),

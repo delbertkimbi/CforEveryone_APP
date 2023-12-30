@@ -20,15 +20,20 @@ class _PeoplesPageState extends State<PeoplesPage> {
         userEmail: "delber@gmail.com",
       ),
       body: Center(
-        child: Container(
-          color: Colors.white,
-          child: Text(
-            "Chats Page",
-            style: TextStyle(
-              fontSize: 30,
-              color: AppColors().headertext,
+        child: Column(
+          children: [
+            Image.asset("assets/c.jpg"),
+            Container(
+              color: Colors.white,
+              child: Text(
+                "Chats Page...",
+                style: TextStyle(
+                  fontSize: 30,
+                  color: AppColors().headertext,
+                ),
+              ),
             ),
-          ),
+          ],
         ),
       ),
     );

@@ -17,10 +17,9 @@ class _IntroPageState extends State<IntroPage> {
   final PageController _controller = PageController();
   bool onlastpage = false;
   TextStyle staticStyle = TextStyle(
-    color: AppColors().components,
+    color: AppColors().headertext,
     fontWeight: FontWeight.bold,
     fontSize: 20,
-    
   );
   @override
   Widget build(BuildContext context) {

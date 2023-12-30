@@ -17,12 +17,12 @@ class Box extends StatefulWidget {
 class _BoxState extends State<Box> {
   double height = 130;
   double width = 140;
-  Color color = Colors.blue;
+  Color color = AppColors().headertext;
   void changeItem() {
     setState(() {
       height = 150;
       width = 150;
-      color = Colors.blue[200]!;
+      color = AppColors().headertext;
     });
   }
 

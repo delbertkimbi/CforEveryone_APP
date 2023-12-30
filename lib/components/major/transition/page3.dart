@@ -10,7 +10,7 @@ class IntroPage3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(8),
-      color: Colors.grey[100],
+      color: Colors.white,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -21,7 +21,7 @@ class IntroPage3 extends StatelessWidget {
           Text(
             AppText().title,
             style: TextStyle(
-              color: AppColors().components,
+              color: AppColors().headertext,
               fontSize: 30,
               fontWeight: FontWeight.bold,
             ),
@@ -40,7 +40,7 @@ class IntroPage3 extends StatelessWidget {
           const SizedBox(
             height: 30,
           ),
-          AppImages().trans3,
+          AppImages().trans1,
         ],
       ),
     );
