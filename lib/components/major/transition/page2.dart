@@ -9,7 +9,7 @@ class IntroPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(8),
+      padding: const EdgeInsets.fromLTRB(12, 70, 12, 2),
       color: Colors.grey[100],
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -29,16 +29,19 @@ class IntroPage2 extends StatelessWidget {
           const SizedBox(
             height: 10,
           ),
-          Text(
-            AppText().trans1,
-            style: const TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.w300,
-              fontSize: 20,
+          Padding(
+            padding: const EdgeInsets.fromLTRB(25, 2, 2, 0),
+            child: Text(
+              AppText().trans2,
+              style: const TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w300,
+                fontSize: 20,
+              ),
             ),
           ),
           const SizedBox(
-            height: 30,
+            height: 10,
           ),
           AppImages().trens2,
         ],

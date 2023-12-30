@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                               Container(
                                 margin: const EdgeInsets.fromLTRB(2, 15, 2, 20),
                                 padding: const EdgeInsets.all(0),
-                                height: 150,
+                                height: 140,
                                 width: 300,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20),

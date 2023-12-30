@@ -9,14 +9,14 @@ class IntroPage3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(8),
+      padding: const EdgeInsets.fromLTRB(8, 40, 8, 8),
       color: Colors.white,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const SizedBox(
-            height: 30,
+            height: 35,
           ),
           Text(
             AppText().title,
@@ -27,18 +27,18 @@ class IntroPage3 extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 10,
+            height: 5,
           ),
-          Text(
-            AppText().trans1,
-            style: const TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.w300,
-              fontSize: 20,
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+            child: Text(
+              AppText().home1,
+              style: const TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w300,
+                fontSize: 20,
+              ),
             ),
-          ),
-          const SizedBox(
-            height: 30,
           ),
           AppImages().trans1,
         ],
