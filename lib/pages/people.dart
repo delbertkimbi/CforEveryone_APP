@@ -1,4 +1,5 @@
 import 'package:c_foreverybody/components/major/custom/appbar.dart';
+import 'package:c_foreverybody/const/appimages.dart';
 import '../components/major/custom/drawer.dart';
 import 'package:c_foreverybody/const/appcolors.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,7 @@ class _PeoplesPageState extends State<PeoplesPage> {
       body: Center(
         child: Column(
           children: [
-            Image.asset("assets/c.jpg"),
+            AppImages().trens2,
             Container(
               color: Colors.white,
               child: Text(

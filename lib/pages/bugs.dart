@@ -1,7 +1,6 @@
 import 'package:c_foreverybody/components/major/custom/appbar.dart';
 import 'package:c_foreverybody/components/major/custom/drawer.dart';
 import 'package:c_foreverybody/const/appcolors.dart';
-import 'package:c_foreverybody/const/appimages.dart';
 import 'package:flutter/material.dart';
 
 class BugsPage extends StatefulWidget {
@@ -22,7 +21,8 @@ class _BugsPageState extends State<BugsPage> {
         ),
         body: Column(
           children: [
-            AppImages().trens2,
+            
+             Image.asset("assets/c.jpg"),
             Container(
               color: Colors.white,
               child: Text(

@@ -1,4 +1,4 @@
-import 'package:c_foreverybody/components/minor/listtile.dart';
+import 'package:c_foreverybody/components/major/minor/listtile.dart';
 import 'package:c_foreverybody/const/appcolors.dart';
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
