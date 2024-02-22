@@ -1,2 +1,16 @@
-# CforEveryone_APP
-An app that helps people who want to learn C prgramming learn better, by providing a platform where they get to post their bugs while coding and get solutions to them from other trusted users of the platform, they can also interact with the chatbot on the app for quick solutions and better unsrsetanding of some concepts
+# c_foreverybody
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

@@ -1,0 +1,12 @@
+com.example.c_foreverybody.app-jetified-window-java-1.0.0-beta04-0 /home/delbert/.gradle/caches/transforms-3/45c981e2e10984af64ca5261af680bef/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.c_foreverybody.app-jetified-annotation-experimental-1.1.0-1 /home/delbert/.gradle/caches/transforms-3/5a5e94e7e4ebf585e578536a1cce7427/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.c_foreverybody.app-jetified-window-1.0.0-beta04-2 /home/delbert/.gradle/caches/transforms-3/6e33ec201b20d4e67a2d9f57994a0274/transformed/jetified-window-1.0.0-beta04/res
+com.example.c_foreverybody.app-core-1.6.0-3 /home/delbert/.gradle/caches/transforms-3/a35d98807e22df87721670387d7cec18/transformed/core-1.6.0/res
+com.example.c_foreverybody.app-debug-4 /home/delbert/Desktop/c_foreverybody/android/app/src/debug/res
+com.example.c_foreverybody.app-main-5 /home/delbert/Desktop/c_foreverybody/android/app/src/main/res
+com.example.c_foreverybody.app-pngs-6 /home/delbert/Desktop/c_foreverybody/build/app/generated/res/pngs/debug
+com.example.c_foreverybody.app-resValues-7 /home/delbert/Desktop/c_foreverybody/build/app/generated/res/resValues/debug
+com.example.c_foreverybody.app-rs-8 /home/delbert/Desktop/c_foreverybody/build/app/generated/res/rs/debug
+com.example.c_foreverybody.app-mergeDebugResources-9 /home/delbert/Desktop/c_foreverybody/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.c_foreverybody.app-mergeDebugResources-10 /home/delbert/Desktop/c_foreverybody/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.c_foreverybody.app-merged_res-11 /home/delbert/Desktop/c_foreverybody/build/app/intermediates/merged_res/debug
